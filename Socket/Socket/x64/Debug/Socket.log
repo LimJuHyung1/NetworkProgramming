@@ -1,0 +1,15 @@
+﻿  Client.c
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(25,2): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(39,29): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(13,9): warning C4101: 'servSock' :참조되지 않은 지역 변수입니다.
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(19,15): warning C4101: 'Addr' :참조되지 않은 지역 변수입니다.
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(22,18): warning C4101: 'host' :참조되지 않은 지역 변수입니다.
+C:\Users\newcy\source\repos\Socket\Socket\Client.c(14,24): warning C4101: 'clntAddr' :참조되지 않은 지역 변수입니다.
+  Server.c
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(47,39): warning C4013: 'inetntoa'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(47,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(47,10): warning C4313: 'printf': 서식 문자열의 '%s'이(가) int' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(70,3): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(83,2): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\newcy\source\repos\Socket\Socket\Server.c(17,6): warning C4101: 'strLen' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
